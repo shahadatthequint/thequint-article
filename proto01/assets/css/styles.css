@@ -10,7 +10,7 @@ a:focus, a:hover, a:active 				{outline: none;}
 .gallery-add-header .add-right			{float: left;width: 18.3%;text-align: right;}
 .gallery-add-header img 				{display: inline-block;}
 
-.gallery-header							{width:100%;background-color: #f3b72a;height: 50px;line-height: 0;position: absolute;top: 0;/*top: 90px;*/}
+.gallery-header							{width:100%;background-color: #f3b72a;height: 50px;line-height: 0;position: relative;/*top: 0;top: 90px;*/}
 .gallery-header .header-left			{float: left;width: 40%;text-align: left;}
 .gallery-header .header-center			{float: left;width: 20%;text-align: center;}
 .gallery-header .header-right			{float: left;width: 40%;text-align: right;}
@@ -18,6 +18,7 @@ a:focus, a:hover, a:active 				{outline: none;}
 .gallery-header img.nav-right			{display: inline-block;}
 .gallery-header img.nav-right-small		{display: none;}
 .gallery-header-small					{display: none;}
+header.story {margin-top: 0 !important;}
 
 .main-hero-banner						{height: 600px;width: 100%;background-image: url('../images/main-hero-banner.jpg');background-size: cover;background-repeat: no-repeat;background-position: center;}
 
