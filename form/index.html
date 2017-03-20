@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,800,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>
+
+<!-- Custom -->
+<style>
+body {
+   margin: 0;
+   padding: 0;
+   font-family: ;
+   font-size: 20px;
+   color: #3C3C3C;
+   font-family: "Merriweather", "Georgia", serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+   font-family: sans-serif;
+   -ms-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   height: 100%;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*, *:after, *:before {
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a {
+   transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-webkit-transition:all 0.3s ease-in-out;
+}
+ul, ol {
+   list-style-type: none;
+}
+article, aside, footer, header, nav, section {
+   display: block;
+}
+.form-wrap {
+   margin: 0 auto;
+   max-width: 700px;
+}
+.form-wrap input[type="text"], select, textarea {
+   min-width: 350px;
+   height: 50px;
+   border-radius: 3px;
+   display: block;
+   box-sizing: border-box;
+   border: 1px solid #cacaca;
+   margin: 0 0 1rem;
+   font-family: inherit;
+   font-size: 1rem;
+   color: #0a0a0a;
+   background-color: #fefefe;
+   padding: 0.5rem 1rem;
+   margin: 0 0 1rem;
+}
+.form-wrap textarea {
+   width: 100%;
+   height: 200px;
+   resize: none;
+}
+.form-wrap .form-label {
+   padding-bottom: 8px;
+   font-weight: bold;
+   font-size: 14px;
+   font-weight: 700;
+}
+.form-wrap .form-label span {
+   color: gray;
+}
+.form-wrap .form-label .agree-terms {
+   font-size: 14px;
+}
+.form-wrap .form-row {
+   margin-bottom: 30px;
+}
+.form-wrap .submit-btn {
+   background: #6a357f;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   padding: 15px 25px;
+   font-weight: bold;
+   font-size: 16px;
+   transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-webkit-transition:all 0.3s ease-in-out;
+}
+.form-wrap .submit-btn:hover {
+   background:#F3B72A; 
+}
+</style>
+
+<!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+   <div class="form-wrap">
+        <form action="" method="post">
+            <br>
+            <div class="form-row">
+                <p class="form-label">Your name <span>(Please do not enter your name if you want to remain anonymous)</span></p>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-row">
+                <p class="form-label">Gender <span>(optional)</span></p>
+                <select name="gender" id="gender">
+                    <option value="">Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Transgender male">Transgender male</option>
+                    <option value="Transgender female">Transgender female</option>
+                    <option value="Non-binary">Non-binary</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <p class="form-label">Your email* &nbsp;<span id="email-error" class="error"></span> <a class="normal-anchor" href="
+                  " target="_blank">(why do we need your mail id?)</a></p>
+                <input type="text" name="email" id="email">
+            </div>
+
+
+            <div class="form-row">
+                <p class="form-label">Where did it happen? <span>(optional)</span></p>
+                <input type="text" name="place" id="place" placeholder="Mumbai, Delhi, Home, Office etc.">
+            </div>
+            <div class="form-row">
+                <p class="form-label">What time of the day did it happen? <span>(optional)</span></p>
+                <select name="what_time" id="what_time">
+                    <option value="">Select</option>
+                    <option value="Morning">Morning</option>
+                    <option value="Afternoon">Afternoon</option>
+                    <option value="Evening">Evening</option>
+                    <option value="Night">Night</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <p class="form-label">What were you wearing at the time of the incident? <span>(optional)</span></p>
+                <input type="text" name="dress" id="dress" placeholder="">
+            </div>
+            <!-- <div class="form-row position-relative padding-top-0 upload-margin-bottom clearfix" data-equalizer>
+            <div class="large-5 columns padding0" data-equalizer-watch>
+               <span class="upload-btn">Share Image(s)</span>
+               <input type="file" name="images[]" id="images" accept="image/*" multiple onchange="app.functions.imagesSelected();">
+            </div>
+            <div class="large-8 columns center-message pad-0" id="selected-images-wrapper">
+               <div id="selected-images"></div>
+            </div>
+          </div> -->
+            <div class="form-row">
+                <p class="form-label">Narrate your experience* &nbsp;<span id="story-error" class="error">(This field is required)</span></p>
+                <textarea name="story" id="story"></textarea>
+            </div>
+            <div class="form-row">
+                <p class="form-label">Did you report this incident to an inquiry committee or file a criminal complaint? &nbsp;<span id="reported-error" class="error">(This field is required)</span></p>
+                <input type="radio" name="reported" value="Yes" id="reported-yes">
+                <label for="reported-yes" class="form-label">Yes</label>
+                <br>
+                <input type="radio" name="reported" value="No" id="reported-no">
+                <label for="reported-no" class="form-label">No</label>
+            </div>
+            <div class="form-row" id="not_reported_reason_wrapper">
+                <p class="form-label">&#8203;If no, why didn't you report the incident? &nbsp;<span id="not_reported_reason_error" class="error">(This field is required)</span></p>
+                <input type="text" name="not_reported_reason" id="not_reported_reason">
+            </div>
+            <div class="form-row clearfix">
+                <p class="form-label">Add a title <span>(optional)</span></p>
+                <input type="text" name="title" id="title">
+            </div>
+            <!-- <div class="form-row clearfix">
+                <p class="form-label">Add tags <span>(optional)</span></p>
+                <input type="text" name="tags" id="tags" class="full-width" placeholder="#jeans #market #groping #boss etc." data-tagsinput-init="true" style="display: none;">
+                <div id="tags_tagsinput" class="tagsinput" style="width: 300px; min-height: 100px; height: 100px;">
+                    <div id="tags_addTag">
+                        <input id="tags_tag" value="" data-default="Add tags" style="color: rgb(102, 102, 102); width: 188px;">
+                    </div>
+                    <div class="tags_clear"></div>
+                </div>
+            </div> -->
+            <div class="form-row">
+                <p class="form-label">Add tags <span>(optional)</span></p>
+                <textarea name="story" id="story"></textarea>
+            </div>
+            <div class="form-row read-terms-wrapper">
+                <p class="form-label">
+                    <label for="agree-terms" class="agree-terms">
+                        <input type="checkbox" name="agree_terms" id="agree-terms">
+                        <span>I have read and agree to the <a href="http://www.howrevealing.com/terms" class="normal-anchor" style="color:#6a357f;">Terms &amp; Conditions</a> and <a href="http://www.howrevealing.com/privacy" class="normal-anchor" style="color:#6a357f;">Privacy Policy</a> of How Revealing</span> &nbsp;
+                        <span id="agree-terms-error" class="error">(This is required)</span>
+                    </label>
+                </p>
+            </div>
+            <!-- <div class="form-row clearfix">
+                <div class="g-recaptcha" data-sitekey="6LdEixIUAAAAABL8xdH91Va7GulXJSdkrxqwxQZV">
+                    <div style="width: 304px; height: 78px;">
+                        <div>
+                            <iframe src="https://www.google.com/recaptcha/api2/anchor?k=6LdEixIUAAAAABL8xdH91Va7GulXJSdkrxqwxQZV&amp;co=aHR0cDovL3d3dy5ob3dyZXZlYWxpbmcuY29tOjgw&amp;hl=en&amp;v=r20170315121834&amp;size=normal&amp;cb=6euuaqycoz9z" title="recaptcha widget" width="304" height="78" frameborder="0" scrolling="no" name="undefined"></iframe>
+                        </div>
+                        <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea>
+                    </div>
+                </div>
+            </div> -->
+            <div class="form-row">
+                <div class="center-message">
+                    <div class="form-message"></div>
+                </div>
+            </div>
+            <div class="form-row">
+               <input type="submit" class="submit-btn" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
