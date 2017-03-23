@@ -50,23 +50,34 @@ article, aside, footer, header, nav, section, figure, figcaption {
 .main-wrap                       {margin: 0 auto;max-width: 700px;}
 .main-wrap .box-wrap             {width: 100%;height:397px;position: relative;}
 .main-wrap .box-wrap img         {width: 100%;display: block;}
-.main-wrap .box-wrap figcaption  {padding: 10px 15px 13px; }
 .main-wrap .box-wrap .box-first,
-.main-wrap .box-wrap .box-second {width: 100%;font-size: 22px;line-height:28px;letter-spacing: 0.4px;color:#fff;font-weight:600;position: absolute;top: 0;left: 0;}
+.main-wrap .box-wrap .box-second {width: 100%;font-size: 22px;line-height:26px;letter-spacing: 0.7px;color:#fff;font-weight:600;position: absolute;top: 0;left: 0;}
 
 .main-wrap .box-wrap .box-first  figure img,
 .main-wrap .box-wrap .box-second figure img {display: block;}
 
-.main-wrap .box-wrap .box-first  figcaption {background-color:#763194;}
-.main-wrap .box-wrap .box-second figcaption {background-color:#F3B72A;}
-.main-wrap .box-cantion          {width: 100%;padding: 10px 20px;background-color: #eee}
+.main-wrap .box-wrap .box-first  figcaption {background-color:#f4f2f2;font-size: 28px;color: #282526;text-transform: uppercase;font-weight: 700;}
+.main-wrap .box-wrap .box-second figcaption {background-color:#282526;}
 /*.main-wrap .btn                {margin: 0 auto;cursor:pointer;width:52px;height:108px;background-image: url(assets/images/switch-02.png); background-size: cover;}
 .main-wrap .btn.active           {background-image: url(assets/images/switch-03.png);}*/
 
+.main-wrap .box-wrap figcaption          {position: relative;height:110px;}
+.main-wrap .box-wrap figcaption .content {position: absolute;top: 51%;display: block;width: 100%;padding: 15px 15px 15px 130px;transform: translateY(-50%);}
+.main-wrap .box-wrap figcaption .content span {color: #d2df67;font-size: 28px;font-weight: 700;}
 .main-wrap .btn.btn-up,
-.main-wrap .btn.btn-down         {margin: 0 auto;cursor:pointer;width:130px;height:130px;background-size: cover;}
+.main-wrap .btn.btn-down         {cursor:pointer;width:110px;height:110px;background-size: cover;position: absolute;top: 0;left: 0;z-index: 2;}
 .main-wrap .btn.btn-up           {background-image: url(assets/images/khatka-03.jpg);}
 .main-wrap .btn.btn-down         {background-image: url(assets/images/khatka-04.jpg);}
+
+
+.main-wrap .box-wrap figcaption .content {
+   position: absolute;
+   top: 51%;
+   transform: translateY(-50%);
+   display: block;
+   width: 100%;
+   padding: 15px 15px 15px 130px;
+}
 
 </style>
 
@@ -85,14 +96,16 @@ article, aside, footer, header, nav, section, figure, figcaption {
       <div class="box-first">
          <figure>
             <img src="assets/images/story4.png">
+            <figcaption><span class="btn btn-up" onclick="playAudio()"></span><span class="content">Turn off the switch</span></figcaption>
          </figure>
-         <div class="btn btn-up" onclick="playAudio()"></div>
+         <!-- <div class="btn btn-up" onclick="playAudio()"></div> -->
       </div>
       <div class="box-second" style="display:none">
          <figure>
             <img src="assets/images/story13.png">
+            <figcaption><span class="btn btn-down" onclick="playAudio()"></span><span class="content"><span>31000 MW</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...</span></figcaption>
          </figure>
-         <div class="btn btn-down" onclick="playAudio()"></div>
+         <!-- <div class="btn btn-down" onclick="playAudio()"></div> -->
       </div>
    </div>
    <!-- <div class="btn" onclick="playAudio()">fsf</div> -->
