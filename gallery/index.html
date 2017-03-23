@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Image Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Exo:400,600,700" rel="stylesheet">
+
+<!-- Custom -->
+<style>
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+   font-family: 'Exo', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+   font-family: sans-serif;
+   -ms-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   height: 100%;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*, *:after, *:before {
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a {
+   color:#6a357f;transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-webkit-transition:all 0.3s ease-in-out;}
+ul, ol {
+   list-style-type: none;
+}
+article, aside, footer, header, nav, section, figure, figcaption {
+   display: block;
+}
+.main-wrap                       {margin: 0 auto;max-width: 600px;}
+.main-wrap .img-wrap             {width: 100%;height:419px;position: relative;}
+.main-wrap .img-wrap figcaption  {padding: 10px 15px 13px; }
+.main-wrap .img-wrap .img-first,
+.main-wrap .img-wrap .img-second {width: 100%;font-size: 22px;line-height:28px;letter-spacing: 0.4px;color:#fff;font-weight:600;position: absolute;top: 0;left: 0;}
+
+.main-wrap .img-wrap .img-first  figure img,
+.main-wrap .img-wrap .img-second figure img {display: block;}
+
+.main-wrap .img-wrap .img-first  figcaption {background-color:#763194;}
+.main-wrap .img-wrap .img-second figcaption {background-color:#F3B72A;}
+
+.main-wrap .img-cantion          {width: 100%;padding: 10px 20px;background-color: #eee}
+/*.main-wrap .btn                {margin: 0 auto; width: 120px;line-height: 50px;background-color: #DA2307;text-align: center;font-size: 22px;font-weight:600;color: #fff;border-radius: 3px;cursor: pointer;transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-webkit-transition:all 0.3s ease-in-out;}
+.main-wrap .btn:hover            {background-color: #763194;}*/
+.main-wrap .btn                  {margin: 0 auto;cursor:pointer;width:25px;height:53px;background-image: url(assets/images/switch-02.png);}
+.main-wrap .btn.active           {background-image: url(assets/images/switch-03.png);}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div class="main-wrap">
+   <div class="img-wrap">
+      <div class="img-first">
+         <figure>
+            <img src="assets/images/story4.png" height="340" width="600">
+            <figcaption>All Americans Should Buy & Hire Americans, Except the Trump Family</figcaption>
+         </figure>
+      </div>
+      <div class="img-second" style="display:none">
+         <figure>
+            <img src="assets/images/story13.png" height="340" width="600">
+            <figcaption>How To Destroy a University: JNU Cuts Down MPhil/Phd Seats by 83%</figcaption>
+         </figure>
+      </div>
+   </div>
+   <div class="btn" onclick="playAudio()"></div>
+</div>
+
+<audio id="myAudio">
+   <!-- <source src="horse.ogg" type="audio/ogg"> -->
+   <source src="assets/audio/Light Switch Flick sound effect.mp3" type="audio/mpeg">
+   Your browser does not support the audio element.
+</audio>
+
+<script>
+   $(document).ready(function(){
+      $(".btn").on("click",function(){
+         if($(".img-second").is(":hidden")){
+            $(".img-first").fadeOut();
+            $(".img-second").fadeIn();
+         }else{
+            $(".img-first").fadeIn();
+            $(".img-second").fadeOut();
+         }
+         $(this).toggleClass("active");
+      });
+   });
+</script>
+
+<script>
+   var btnAudio = document.getElementById("myAudio"); 
+   function playAudio() { 
+      btnAudio.play(); 
+   } 
+   function pauseAudio() { 
+      btnAudio.pause(); 
+   } 
+</script>
+
+</body>
+</html>
