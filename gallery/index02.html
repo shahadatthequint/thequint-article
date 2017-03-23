@@ -13,7 +13,7 @@
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Exo:400,600,700" rel="stylesheet">
 
-<!-- CSS -->
+<!-- Custom -->
 <style>
 body {
    margin: 0;
@@ -48,29 +48,27 @@ article, aside, footer, header, nav, section, figure, figcaption {
    display: block;
 }
 .main-wrap                       {margin: 0 auto;max-width: 700px;}
-.main-wrap .box-wrap             {width: 100%;height:397px;position: relative;}
-.main-wrap .box-wrap img         {width: 100%;display: block;}
-.main-wrap .box-wrap figcaption  {padding: 10px 15px 13px; }
-.main-wrap .box-wrap .box-first,
-.main-wrap .box-wrap .box-second {width: 100%;font-size: 22px;line-height:28px;letter-spacing: 0.4px;color:#fff;font-weight:600;position: absolute;top: 0;left: 0;}
+.main-wrap .img-wrap             {width: 100%;height:396px;position: relative;}
+.main-wrap .img-wrap img         {width: 100%;display: block;}
+.main-wrap .img-wrap figcaption  {padding: 10px 15px 13px; }
+.main-wrap .img-wrap .img-first,
+.main-wrap .img-wrap .img-second {width: 100%;font-size: 22px;line-height:28px;letter-spacing: 0.4px;color:#fff;font-weight:600;position: absolute;top: 0;left: 0;}
 
-.main-wrap .box-wrap .box-first  figure img,
-.main-wrap .box-wrap .box-second figure img {display: block;}
+.main-wrap .img-wrap .img-first  figure img,
+.main-wrap .img-wrap .img-second figure img {display: block;}
 
-.main-wrap .box-wrap .box-first  figcaption {background-color:#763194;}
-.main-wrap .box-wrap .box-second figcaption {background-color:#F3B72A;}
-.main-wrap .box-cantion          {width: 100%;padding: 10px 20px;background-color: #eee}
-/*.main-wrap .btn                {margin: 0 auto;cursor:pointer;width:52px;height:108px;background-image: url(assets/images/switch-02.png); background-size: cover;}
-.main-wrap .btn.active           {background-image: url(assets/images/switch-03.png);}*/
+.main-wrap .img-wrap .img-first  figcaption {background-color:#763194;}
+.main-wrap .img-wrap .img-second figcaption {background-color:#F3B72A;}
 
-.main-wrap .btn.btn-up,
-.main-wrap .btn.btn-down         {margin: 0 auto;cursor:pointer;width:52px;height:108px;background-size: cover;}
-.main-wrap .btn.btn-up           {background-image: url(assets/images/switch-02.png);}
-.main-wrap .btn.btn-down         {background-image: url(assets/images/switch-03.png);}
-
+.main-wrap .img-cantion          {width: 100%;padding: 10px 20px;background-color: #eee}
+/*.main-wrap .btn                {margin: 0 auto; width: 120px;line-height: 50px;background-color: #DA2307;text-align: center;font-size: 22px;font-weight:600;color: #fff;border-radius: 3px;cursor: pointer;transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-webkit-transition:all 0.3s ease-in-out;}
+.main-wrap .btn:hover            {background-color: #763194;}*/
+.main-wrap .btn                  {margin: 0 auto;cursor:pointer;width:52px;height:108px;background-image: url(assets/images/switch-02.png); background-size: cover;}
+.main-wrap .btn.active           {background-image: url(assets/images/switch-03.png);}
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -81,39 +79,39 @@ article, aside, footer, header, nav, section, figure, figcaption {
 
 <body>
 <div class="main-wrap">
-   <div class="box-wrap">
-      <div class="box-first">
+   <div class="img-wrap">
+      <div class="img-first">
          <figure>
             <img src="assets/images/story4.png">
+            <!-- <figcaption>All Americans Should Buy & Hire Americans, Except the Trump Family</figcaption> -->
          </figure>
-         <div class="btn btn-up" onclick="playAudio()"></div>
       </div>
-      <div class="box-second" style="display:none">
+      <div class="img-second" style="display:none">
          <figure>
             <img src="assets/images/story13.png">
          </figure>
-         <div class="btn btn-down" onclick="playAudio()"></div>
       </div>
    </div>
-   <!-- <div class="btn" onclick="playAudio()">fsf</div> -->
+   <div class="btn" onclick="playAudio()"></div>
 </div>
 
 <audio id="myAudio">
-   <source src="assets/audio/Light-Switch-Flick-sound-effect.mp3" type="audio/mpeg">
+   <!-- <source src="horse.ogg" type="audio/ogg"> -->
+   <source src="assets/audio/Light Switch Flick sound effect.mp3" type="audio/mpeg">
    Your browser does not support the audio element.
 </audio>
 
 <script>
    $(document).ready(function(){
       $(".btn").on("click",function(){
-         if($(".box-second").is(":hidden")){
-            $(".box-first").toggle();
-            $(".box-second").toggle();
+         if($(".img-second").is(":hidden")){
+            $(".img-first").toggle();
+            $(".img-second").toggle();
          }else{
-            $(".box-first").toggle();
-            $(".box-second").toggle();
+            $(".img-first").toggle();
+            $(".img-second").toggle();
          }
-         //$(this).toggleClass("active");
+         $(this).toggleClass("active");
       });
    });
 </script>
