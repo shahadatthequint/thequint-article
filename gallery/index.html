@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,61 +12,12 @@
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Exo:400,600,700" rel="stylesheet">
 
-<!-- CSS -->
-<style>
-body {
-   margin: 0;
-   padding: 0;
-   font-size: 16px;
-   font-family: 'Exo', sans-serif;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-html {
-   font-family: sans-serif;
-   -ms-text-size-adjust: 100%;
-   -webkit-text-size-adjust: 100%;
-   height: 100%;
-   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-*, *:after, *:before {
-   box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-a {
-   color:#6a357f;transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-webkit-transition:all 0.3s ease-in-out;}
-ul, ol {
-   list-style-type: none;
-}
-article, aside, footer, header, nav, section, figure, figcaption {
-   display: block;
-}
-.main-wrap                       {margin: 0 auto;max-width: 700px;}
-.main-wrap .box-wrap             {width: 100%;height:397px;position: relative;}
-.main-wrap .box-wrap img         {width: 100%;display: block;}
-.main-wrap .box-wrap .box-first,
-.main-wrap .box-wrap .box-second {width: 100%;font-size: 22px;line-height:26px;letter-spacing: 0.7px;color:#fff;font-weight:600;position: absolute;top: 0;left: 0;}
+<!-- Custom -->
+<link href="assets/css/styles.css" rel="stylesheet">
 
-.main-wrap .box-wrap .box-first  figure img,
-.main-wrap .box-wrap .box-second figure img  {display: block;}
-.main-wrap .box-wrap .box-first  figcaption  {background-color:#f4f2f2;font-size: 28px;color: #282526;text-transform: uppercase;font-weight: 700;}
-.main-wrap .box-wrap .box-second figcaption  {background-color:#282526;}
-
-.main-wrap .box-wrap figcaption              {position: relative;height:110px;}
-.main-wrap .box-wrap figcaption .content     {position: absolute;top: 51%;display: block;width: 100%;padding: 15px 15px 15px 130px;transform: translateY(-50%);}
-.main-wrap .box-wrap figcaption .content span{color: #d2df67;font-size: 28px;font-weight: 700;}
-.main-wrap .btn-up, .main-wrap .btn-down     {cursor:pointer;width:110px;height:110px;background-size: cover;position: absolute;top: 0;left: 0;z-index: 2;}
-.main-wrap .btn-up                           {background-image: url(assets/images/khatka-03.jpg);}
-.main-wrap .btn-down                         {background-image: url(assets/images/khatka-04.jpg);}
-
-</style>
-
+<!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -91,10 +41,8 @@ article, aside, footer, header, nav, section, figure, figcaption {
             <img src="assets/images/story13.png">
             <figcaption><span class="btn-down"></span><span class="content"><span>31000 MW</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text...</span></figcaption>
          </figure>
-         <!-- <div class="btn btn-down" onclick="playAudio()"></div> -->
       </div>
    </div>
-   <!-- <div class="btn" onclick="playAudio()">fsf</div> -->
 </div>
 
 <audio id="myAudio">
@@ -112,16 +60,6 @@ article, aside, footer, header, nav, section, figure, figcaption {
          $(".box-first").fadeIn();
          $(".box-second").fadeOut();
       });
-      /*$(".btn").on("click",function(){
-         if($(".box-second").is(":hidden")){
-            $(".box-first").toggle();
-            $(".box-second").toggle();
-         }else{
-            $(".box-first").toggle();
-            $(".box-second").toggle();
-         }
-         //$(this).toggleClass("active");
-      });*/
    });
 </script>
 
@@ -133,6 +71,17 @@ article, aside, footer, header, nav, section, figure, figcaption {
    function pauseAudio() { 
       btnAudio.pause(); 
    } 
+</script>
+
+<script src="https://fea.quintype.com/thequint/assets/iframeResizer.contentWindow.min_0bb6a81590ea182e4a7b799f4b6b4821.js"></script>
+
+<script>
+function adjust_iframe_height(){
+    var actual_height = document.body.scrollHeight; 
+    console.log("height is",actual_height);
+    parent.postMessage(JSON.stringify({'msg-type':"resize-iframe", height:actual_height,src:window.location.href}),"*"); 
+    //* allows this to post to any parent iframe regardless of domain
+}
 </script>
 
 </body>
