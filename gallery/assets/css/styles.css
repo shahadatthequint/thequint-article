@@ -31,7 +31,7 @@ article, aside, footer, header, nav, section, figure, figcaption {
    display: block;
 }
 .main-wrap                                      {margin: 0 auto;max-width: 800px;padding: 0 24px}
-.main-wrap .box-wrap                            {width: 100%;height:426px;position: relative;}
+.main-wrap .box-wrap                            {width: 100%;height:537px;position: relative;background-color: #eee}
 .main-wrap .box-wrap img                        {width: 100%;display: block;}
 .main-wrap .box-wrap .box-first,
 .main-wrap .box-wrap .box-second                {width: 100%;line-height:26px;letter-spacing: 0.7px;color:#fff;font-weight:600;position: absolute;top: 0;left: 0;}
