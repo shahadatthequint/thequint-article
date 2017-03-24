@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Mumbai</title>
+<title>Mumbai02</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="format-detection" content="telephone=no" />
 <meta name="description" content="">
@@ -14,9 +14,6 @@
 
 <!-- Custom -->
 <link href="assets/css/styles.css" rel="stylesheet">
-
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,15 +28,15 @@
    <div class="box-wrap">
       <div class="box-first btn-01" onclick="playAudio()">
          <figure>
-            <img src="assets/images/Mumbai-Sea-Link-ON.png">
-            <figcaption><span class="btn-up"></span><span class="content">Turn off the switch</span></figcaption>
+            <img src="assets/images/mumbai-sea-link-on.png">
+            <figcaption><span class="btn-up"></span><span class="content">Click to turn off the lights</span></figcaption>
          </figure>
          <!-- <div class="btn btn-up" onclick="playAudio()"></div> -->
       </div>
       <div class="box-second btn-02" style="display:none" onclick="playAudio()">
          <figure>
-            <img src="assets/images/Mumbai-Sea-Link-OFF.png">
-            <figcaption><span class="btn-down"></span><span class="content"><span>31000 MW</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has the industry's standard dummy text...</span></figcaption>
+            <img src="assets/images/mumbai-sea-link-off.png">
+            <figcaption><span class="btn-down"></span><span class="content">India imported 202 <span>MT</span> of crude oil in 2016, which is enough to produce <span>1.5 times</span> Australia's annual energy requirement.</span></figcaption>
          </figure>
       </div>
    </div>
@@ -50,19 +47,9 @@
    Your browser does not support the audio element.
 </audio>
 
-<script>
-   $(document).ready(function(){
-      $(".btn-01").on("click",function(){
-         $(".box-first").fadeOut();
-         $(".box-second").fadeIn();
-      });
-      $(".btn-02").on("click",function(){
-         $(".box-first").fadeIn();
-         $(".box-second").fadeOut();
-      });
-   });
-</script>
-
+<!-- jQuery -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/custom.js"></script>
 <script>
    var btnAudio = document.getElementById("myAudio"); 
    function playAudio() { 
@@ -75,12 +62,12 @@
 
 <script src="https://fea.quintype.com/thequint/assets/iframeResizer.contentWindow.min_0bb6a81590ea182e4a7b799f4b6b4821.js"></script>
 
-<script>
+<script type="text/javascript">
 function adjust_iframe_height(){
-    var actual_height = document.body.scrollHeight; 
-    console.log("height is",actual_height);
-    parent.postMessage(JSON.stringify({'msg-type':"resize-iframe", height:actual_height,src:window.location.href}),"*"); 
-    //* allows this to post to any parent iframe regardless of domain
+   var actual_height = document.body.scrollHeight; 
+   console.log("height is",actual_height);
+   parent.postMessage(JSON.stringify({'msg-type':"resize-iframe", height:actual_height,src:window.location.href}),"*"); 
+   //* allows this to post to any parent iframe regardless of domain
 }
 </script>
 
