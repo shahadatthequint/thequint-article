@@ -31,7 +31,7 @@ article, aside, footer, header, nav, section, figure, figcaption {
    display: block;
 }
 .main-wrap                                      {margin: 0 auto;max-width: 800px;padding: 0 24px}
-.main-wrap .box-wrap                            {width: 100%;height:540px;position: relative;background-color: #eee;}
+.main-wrap .box-wrap                            {width: 100%;height:533px;position: relative;background-color: #eee;}
 .main-wrap .box-wrap img                        {width: 100%;display: block;}
 .main-wrap .box-wrap .box-first,
 .main-wrap .box-wrap .box-second                {width: 100%;line-height:26px;letter-spacing: 0.7px;color:#fff;font-weight:600;position: absolute;top: 0;left: 0;}
@@ -50,6 +50,7 @@ article, aside, footer, header, nav, section, figure, figcaption {
 .main-wrap .btn-down                            {background-image: url(../images/khatka-04.jpg);}
 
 @media (max-width: 767px) {
+   .main-wrap .box-wrap                         {height:500px;}
    .main-wrap .box-wrap .box-first  figcaption  {}
 
    .main-wrap .box-wrap figcaption              {height: 90px;}
@@ -60,13 +61,14 @@ article, aside, footer, header, nav, section, figure, figcaption {
    .main-wrap .box-wrap figcaption .content span{font-size: 20px;}
 }
 @media (max-width: 600px) {
+   .main-wrap .box-wrap                         {height:400px;}
    .main-wrap .box-wrap .box-first  figcaption  {font-size: 24px;}
 
    .main-wrap .box-wrap .box-second figcaption,
    .main-wrap .box-wrap figcaption .content span{font-size: 16px;}
 }
 @media (max-width: 480px) {
-   .main-wrap .box-wrap .box-first  figcaption  {font-size: 22px;}
+   .main-wrap .box-wrap .box-first  figcaption  {font-size: 20px;}
 
    .main-wrap .box-wrap .box-second figcaption,
    .main-wrap .box-wrap figcaption .content span{font-size: 14px;line-height:18px;}
