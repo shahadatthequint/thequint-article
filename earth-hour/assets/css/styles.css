@@ -49,6 +49,10 @@ article, aside, footer, header, nav, section, figure, figcaption {
 .main-wrap .btn-up                              {background-image: url(../images/khatka-03.jpg);}
 .main-wrap .btn-down                            {background-image: url(../images/khatka-04.jpg);}
 
+@media (max-width: 800px) {
+   .main-wrap                                      {padding: 0 16px;}
+}
+
 @media (max-width: 767px) {
    .main-wrap .box-wrap .box-first  figcaption  {}
 
