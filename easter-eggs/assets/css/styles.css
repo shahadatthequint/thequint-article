@@ -2,7 +2,8 @@ body {
    margin: 0;
    padding: 0;
    font-size: 16px;
-   font-family: 'Exo', sans-serif;
+   /*font-family: 'Exo', sans-serif;*/
+   font-family: 'Chewy', cursive;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -108,14 +109,14 @@ article, aside, footer, header, nav, section, figure, figcaption {
    /*background: url(../images/egg-poster.png) no-repeat top center;*/
 }
 .body-wrap .egg-content {
-   background-color: #3b3b3b;
    max-width: 420px;
    margin: 0 auto;
    display: none;
    padding: 15px;
    color: #fff;
-   font-size: 20px;
-   font-weight: 700;
+   font-size: 25px;
+   font-weight: normal;
+   letter-spacing: 1px;
    border-radius: 10px;
    text-align: center;
    text-transform: uppercase;
@@ -134,6 +135,9 @@ article, aside, footer, header, nav, section, figure, figcaption {
 .egg-poster.egg-poster01 {
    background: url(../images/egg-poster.png) no-repeat top center;
 }
+.body-wrap .egg-content.bg-color01 {
+   background-color: #d63730;
+}
 
 /* Egg 02 */
 .egg-up.egg-up02 {
@@ -144,6 +148,9 @@ article, aside, footer, header, nav, section, figure, figcaption {
 }
 .egg-poster.egg-poster02 {
    background: url(../images/egg-poster02.png) no-repeat top center;
+}
+.body-wrap .egg-content.bg-color02 {
+   background-color: #619725;
 }
 
 /* Egg 03 */
@@ -156,6 +163,9 @@ article, aside, footer, header, nav, section, figure, figcaption {
 .egg-poster.egg-poster03 {
    background: url(../images/egg-poster03.png) no-repeat top center;
 }
+.body-wrap .egg-content.bg-color03 {
+   background-color: #5296c1;
+}
 
 /* Egg 04 */
 .egg-up.egg-up04 {
@@ -167,6 +177,9 @@ article, aside, footer, header, nav, section, figure, figcaption {
 .egg-poster.egg-poster04 {
    background: url(../images/egg-poster04.png) no-repeat top center;
 }
+.body-wrap .egg-content.bg-color04 {
+   background-color: #a7549f;
+}
 
 /* Egg 05 */
 .egg-up.egg-up05 {
@@ -177,6 +190,9 @@ article, aside, footer, header, nav, section, figure, figcaption {
 }
 .egg-poster.egg-poster05 {
    background: url(../images/egg-poster05.png) no-repeat top center;
+}
+.body-wrap .egg-content.bg-color05 {
+   background-color: #f58036;
 }
 
 /* ------------------------------------------------------------ *\
