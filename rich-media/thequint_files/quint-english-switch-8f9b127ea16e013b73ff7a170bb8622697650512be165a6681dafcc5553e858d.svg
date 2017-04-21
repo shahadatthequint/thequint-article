@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="quint-english-switch" sketch:type="MSLayerGroup">
+            <g id="Page-1">
+                <g id="Rectangle-1-+-Oval-19-Copy-+-A-Copy">
+                    <rect id="Rectangle-1" sketch:type="MSShapeGroup" x="0" y="0" width="32" height="32"></rect>
+                    <g id="Oval-19-Copy-+-A-Copy" transform="translate(3.000000, 3.000000)">
+                        <circle id="Oval-19-Copy" stroke="#454545" sketch:type="MSShapeGroup" cx="13" cy="13" r="13"></circle>
+                        <g id="A-Copy" transform="translate(8.000000, 4.000000)" font-size="14.3216783" font-family="Merriweather" fill="#454545" sketch:type="MSTextLayer" font-weight="bold">
+                            <text id="A">
+                                <tspan x="0" y="14" fill="#000000">A</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

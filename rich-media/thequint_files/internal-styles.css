@@ -1,0 +1,1119 @@
+.section.qlink,
+            li.section.qlink a {
+                color: #DA2307;
+            }
+            
+            li.section.qlink a:hover {
+                color: #fff;
+                background-color: #DA2307;
+            }
+            
+            .top-story .section.qlink {
+                color: #FFF;
+                background-color: #DA2307;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover,
+            a:focus,
+            a:active {
+                background: #DA2307;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qlink .card .story-element-blurb blockquote {
+                border-color: #DA2307;
+                color: #DA2307;
+            }
+
+            .section.qsection-viral,
+            li.section.qsection-viral a {
+                color: #0DBF6B;
+            }
+            
+            li.section.qsection-viral a:hover {
+                color: #fff;
+                background-color: #0DBF6B;
+            }
+            
+            .top-story .section.qsection-viral {
+                color: #FFF;
+                background-color: #0DBF6B;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-viral a:hover,
+            a:focus,
+            a:active {
+                background: #0DBF6B;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-viral a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-viral a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-viral a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-viral .card .story-element-blurb blockquote {
+                border-color: #0DBF6B;
+                color: #0DBF6B;
+            }
+
+            .section.qsection-hot-news,
+            li.section.qsection-hot-news a {
+                color: #DC143C;
+            }
+            
+            li.section.qsection-hot-news a:hover {
+                color: #fff;
+                background-color: #DC143C;
+            }
+            
+            .top-story .section.qsection-hot-news {
+                color: #FFF;
+                background-color: #DC143C;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-hot-news a:hover,
+            a:focus,
+            a:active {
+                background: #DC143C;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-hot-news a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-hot-news a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-hot-news a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-hot-news .card .story-element-blurb blockquote {
+                border-color: #DC143C;
+                color: #DC143C;
+            }
+            /* */
+            .section.qsection-entertainment,
+            li.section.qsection-entertainment a {
+                color: #590688;
+            }
+            
+            li.section.qsection-entertainment a:hover {
+                color: #fff;
+                background-color: #590688;
+            }
+            
+            .top-story .section.qsection-entertainment {
+                color: #FFF;
+                background-color: #590688;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-entertainment a:hover,
+            a:focus,
+            a:active {
+                background: #590688;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-entertainment a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-entertainment a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-entertainment a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-entertainment .card .story-element-blurb blockquote {
+                border-color: #590688;
+                color: #590688;
+            }
+            /**/
+            .section.qsection-sports,
+            li.section.qsection-sports a {
+                color: #0BCD45;
+            }
+            
+            li.section.qsection-sports a:hover {
+                color: #fff;
+                background-color: #0BCD45;
+            }
+            
+            .top-story .section.qsection-sports {
+                color: #FFF;
+                background-color: #0BCD45;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-sports a:hover,
+            a:focus,
+            a:active {
+                background: #0BCD45;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-sports a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-sports a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-sports a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-sports .card .story-element-blurb blockquote {
+                border-color: #0BCD45;
+                color: #0BCD45;
+            }
+            /**/
+            .section.qsection-news-videos,
+            li.section.qsection-news-videos a {
+                color: #0D37B7;
+            }
+            
+            li.section.qsection-news-videos a:hover {
+                color: #fff;
+                background-color: #0D37B7;
+            }
+            
+            .top-story .section.qsection-news-videos {
+                color: #FFF;
+                background-color: #0D37B7;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-news-videos a:hover,
+            a:focus,
+            a:active {
+                background: #0D37B7;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-news-videos a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-news-videos a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-news-videos a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-news-videos .card .story-element-blurb blockquote {
+                border-color: #0D37B7;
+                color: #0D37B7;
+            }
+            /**/
+            .section.qsection-documentaries,
+            li.section.qsection-documentaries a {
+                color: #330066;
+            }
+            
+            li.section.qsection-documentaries a:hover {
+                color: #fff;
+                background-color: #330066;
+            }
+            
+            .top-story .section.qsection-documentaries {
+                color: #FFF;
+                background-color: #330066;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-documentaries a:hover,
+            a:focus,
+            a:active {
+                background: #330066;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-documentaries a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-documentaries a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-documentaries a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-documentaries .card .story-element-blurb blockquote {
+                border-color: #330066;
+                color: #330066;
+            }
+            /**/
+            .section.qsection-videos,
+            li.section.qsection-videos a {
+                color: #7d00b3;
+            }
+            
+            li.section.qsection-videos a:hover {
+                color: #fff;
+                background-color: #7d00b3;
+            }
+            
+            .top-story .section.qsection-videos {
+                color: #FFF;
+                background-color: #7d00b3;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-videos a:hover,
+            a:focus,
+            a:active {
+                background: #7d00b3;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-videos a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-videos a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-videos a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-videos .card .story-element-blurb blockquote {
+                border-color: #7d00b3;
+                color: #7d00b3;
+            }
+            /**/
+            .section.qsection-nbc,
+            li.section.qsection-nbc a {
+                color: #2E92F1;
+            }
+            
+            li.section.qsection-nbc a:hover {
+                color: #fff;
+                background-color: #2E92F1;
+            }
+            
+            .top-story .section.qsection-nbc {
+                color: #FFF;
+                background-color: #2E92F1;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-nbc a:hover,
+            a:focus,
+            a:active {
+                background: #2E92F1;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-nbc a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-nbc a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-nbc a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-nbc .card .story-element-blurb blockquote {
+                border-color: #2E92F1;
+                color: #2E92F1;
+            }
+            /**/
+            .section.qsection-technology,
+            li.section.qsection-technology a {
+                color: #B10F7B;
+            }
+            
+            li.section.qsection-technology a:hover {
+                color: #fff;
+                background-color: #B10F7B;
+            }
+            
+            .top-story .section.qsection-technology {
+                color: #FFF;
+                background-color: #B10F7B;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-technology a:hover,
+            a:focus,
+            a:active {
+                background: #B10F7B;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-technology a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-technology a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-technology a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-technology .card .story-element-blurb blockquote {
+                border-color: #B10F7B;
+                color: #B10F7B;
+            }
+            /**/
+            .section.qsection-car-and-bike,
+            li.section.qsection-car-and-bike a {
+                color: #0f3250;
+            }
+            
+            li.section.qsection-car-and-bike a:hover {
+                color: #fff;
+                background-color: #0f3250;
+            }
+            
+            .top-story .section.qsection-car-and-bike {
+                color: #FFF;
+                background-color: #0f3250;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-car-and-bike a:hover,
+            a:focus,
+            a:active {
+                background: #0f3250;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-car-and-bike a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-car-and-bike a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-car-and-bike a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-car-and-bike .card .story-element-blurb blockquote {
+                border-color: #0f3250;
+                color: #0f3250;
+            }
+            /**/
+            .section.qsection-opinion,
+            li.section.qsection-opinion a {
+                color: #ffa01e;
+            }
+            
+            li.section.qsection-opinion a:hover {
+                color: #fff;
+                background-color: #ffa01e;
+            }
+            
+            .top-story .section.qsection-opinion {
+                color: #FFF;
+                background-color: #ffa01e;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-opinion a:hover,
+            a:focus,
+            a:active {
+                background: #ffa01e;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-opinion a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-opinion a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-opinion a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-opinion .card .story-element-blurb blockquote {
+                border-color: #ffa01e;
+                color: #ffa01e;
+            }
+            /**/
+            .section.qsection-health,
+            li.section.qsection-health a {
+                color: #5D0060;
+            }
+            
+            li.section.qsection-health a:hover {
+                color: #fff;
+                background-color: #5D0060;
+            }
+            
+            .top-story .section.qsection-health {
+                color: #FFF;
+                background-color: #5D0060;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-health a:hover,
+            a:focus,
+            a:active {
+                background: #5D0060;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-health a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-health a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-health a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-health .card .story-element-blurb blockquote {
+                border-color: #5D0060;
+                color: #5D0060;
+            }
+            /**/
+            .section.qsection-india,
+            li.section.qsection-india a {
+                color: #AA1E50;
+            }
+            
+            li.section.qsection-india a:hover {
+                color: #fff;
+                background-color: #AA1E50;
+            }
+            
+            .top-story .section.qsection-india {
+                color: #FFF;
+                background-color: #AA1E50;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-india a:hover,
+            a:focus,
+            a:active {
+                background: #AA1E50;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-india a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-india a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-india a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-india .card .story-element-blurb blockquote {
+                border-color: #AA1E50;
+                color: #AA1E50;
+            }
+            /**/
+            .section.qsection-business,
+            li.section.qsection-business a {
+                color: #FFC100;
+            }
+            
+            li.section.qsection-business a:hover {
+                color: #fff;
+                background-color: #FFC100;
+            }
+            
+            .top-story .section.qsection-business {
+                color: #FFF;
+                background-color: #FFC100;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-business a:hover,
+            a:focus,
+            a:active {
+                background: #FFC100;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-business a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-business a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-business a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-business .card .story-element-blurb blockquote {
+                border-color: #FFC100;
+                color: #FFC100;
+            }
+            /**/
+            .section.qsection-world,
+            li.section.qsection-world a {
+                color: #ff5a5a;
+            }
+            
+            li.section.qsection-world a:hover {
+                color: #fff;
+                background-color: #ff5a5a;
+            }
+            
+            .top-story .section.qsection-world {
+                color: #FFF;
+                background-color: #ff5a5a;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-world a:hover,
+            a:focus,
+            a:active {
+                background: #ff5a5a;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-world a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-world a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-world a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-world .card .story-element-blurb blockquote {
+                border-color: #ff5a5a;
+                color: #ff5a5a;
+            }
+            /**/
+            .section.qsection-on-the-road-with-barkha,
+            li.section.qsection-on-the-road-with-barkha a {
+                color: #330066;
+            }
+            
+            li.section.qsection-on-the-road-with-barkha a:hover {
+                color: #fff;
+                background-color: #330066;
+            }
+            
+            .top-story .section.qsection-on-the-road-with-barkha {
+                color: #FFF;
+                background-color: #330066;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-on-the-road-with-barkha a:hover,
+            a:focus,
+            a:active {
+                background: #330066;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-on-the-road-with-barkha a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-on-the-road-with-barkha a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-on-the-road-with-barkha a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-on-the-road-with-barkha .card .story-element-blurb blockquote {
+                border-color: #330066;
+                color: #330066;
+            }
+            /* */
+            .section.qsection-politics,
+            li.section.qsection-politics a {
+                color: #ffd500;
+            }
+            
+            li.section.qsection-politics a:hover {
+                color: #fff;
+                background-color: #ffd500;
+            }
+            
+            .top-story .section.qsection-politics {
+                color: #FFF;
+                background-color: #ffd500;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-politics a:hover,
+            a:focus,
+            a:active {
+                background: #ffd500;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-politics a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-politics a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-politics a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-politics .card .story-element-blurb blockquote {
+                border-color: #ffd500;
+                color: #ffd500;
+            }
+            /* */
+            .section.qsection-environment,
+            li.section.qsection-environment a {
+                color: #0B6121;
+            }
+            
+            li.section.qsection-environment a:hover {
+                color: #fff;
+                background-color: #0B6121;
+            }
+            
+            .top-story .section.qsection-environment {
+                color: #FFF;
+                background-color: #0B6121;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-environment a:hover,
+            a:focus,
+            a:active {
+                background: #0B6121;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-environment a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-environment a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-environment a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-environment .card .story-element-blurb blockquote {
+                border-color: #0B6121;
+                color: #0B6121;
+            }
+            /* */
+            .section.qsection-explainers,
+            li.section.qsection-explainers a {
+                color: #95c200;
+            }
+            
+            li.section.qsection-explainers a:hover {
+                color: #fff;
+                background-color: #95c200;
+            }
+            
+            .top-story .section.qsection-explainers {
+                color: #FFF;
+                background-color: #95c200;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-explainers a:hover,
+            a:focus,
+            a:active {
+                background: #95c200;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-explainers a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-explainers a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-explainers a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-explainers .card .story-element-blurb blockquote {
+                border-color: #95c200;
+                color: #95c200;
+            }
+            /* */
+            .section.qsection-photos,
+            li.section.qsection-photos a {
+                color: #FF6464;
+            }
+            
+            li.section.qsection-photos a:hover {
+                color: #fff;
+                background-color: #FF6464;
+            }
+            
+            .top-story .section.qsection-photos {
+                color: #FFF;
+                background-color: #FF6464;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-photos a:hover,
+            a:focus,
+            a:active {
+                background: #FF6464;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-photos a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-photos a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-photos a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-photos .card .story-element-blurb blockquote {
+                border-color: #FF6464;
+                color: #FF6464;
+            }
+            /* */
+            .section.qsection-infographics,
+            li.section.qsection-infographics a {
+                color: #0080FF;
+            }
+            
+            li.section.qsection-infographics a:hover {
+                color: #fff;
+                background-color: #0080FF;
+            }
+            
+            .top-story .section.qsection-infographics {
+                color: #FFF;
+                background-color: #0080FF;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-infographics a:hover,
+            a:focus,
+            a:active {
+                background: #0080FF;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-infographics a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-infographics a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-infographics a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-infographics .card .story-element-blurb blockquote {
+                border-color: #0080FF;
+                color: #0080FF;
+            }
+            /* */
+            .section.qsection-blogs,
+            li.section.qsection-blogs a {
+                color: #87CEEB;
+            }
+            
+            li.section.qsection-blogs a:hover {
+                color: #fff;
+                background-color: #87CEEB;
+            }
+            
+            .top-story .section.qsection-blogs {
+                color: #FFF;
+                background-color: #87CEEB;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-blogs a:hover,
+            a:focus,
+            a:active {
+                background: #87CEEB;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-blogs a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-blogs a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-blogs a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-blogs .card .story-element-blurb blockquote {
+                border-color: #87CEEB;
+                color: #87CEEB;
+            }
+            /* */
+            .section.qsection-food,
+            li.section.qsection-food a {
+                color: #CD720B;
+            }
+            
+            li.section.qsection-food a:hover {
+                color: #fff;
+                background-color: #CD720B;
+            }
+            
+            .top-story .section.qsection-food {
+                color: #FFF;
+                background-color: #CD720B;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-food a:hover,
+            a:focus,
+            a:active {
+                background: #CD720B;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-food a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-food a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-food a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-food .card .story-element-blurb blockquote {
+                border-color: #CD720B;
+                color: #CD720B;
+            }
+            /* */
+            .section.qsection-lgbt,
+            li.section.qsection-lgbt a {
+                color: #DB145A;
+            }
+            
+            li.section.qsection-lgbt a:hover {
+                color: #fff;
+                background-color: #DB145A;
+            }
+            
+            .top-story .section.qsection-lgbt {
+                color: #FFF;
+                background-color: #DB145A;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qsection-lgbt a:hover,
+            a:focus,
+            a:active {
+                background: #DB145A;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-lgbt a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-lgbt a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qsection-lgbt a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qsection-lgbt .card .story-element-blurb blockquote {
+                border-color: #DB145A;
+                color: #DB145A;
+            }
+            /* */
+            .section.qlink,
+            li.section.qlink a {
+                color: #444444;
+            }
+            
+            li.section.qlink a:hover {
+                color: #fff;
+                background-color: #444444;
+            }
+            
+            .top-story .section.qlink {
+                color: #FFF;
+                background-color: #444444;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover,
+            a:focus,
+            a:active {
+                background: #444444;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qlink .card .story-element-blurb blockquote {
+                border-color: #444444;
+                color: #444444;
+            }
+            /* */
+            .section.qlink,
+            li.section.qlink a {
+                color: #444444;
+            }
+            
+            li.section.qlink a:hover {
+                color: #fff;
+                background-color: #444444;
+            }
+            
+            .top-story .section.qlink {
+                color: #FFF;
+                background-color: #444444;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover,
+            a:focus,
+            a:active {
+                background: #444444;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qlink .card .story-element-blurb blockquote {
+                border-color: #444444;
+                color: #444444;
+            }
+            /* */
+            .section.qlink,
+            li.section.qlink a {
+                color: #444444;
+            }
+            
+            li.section.qlink a:hover {
+                color: #fff;
+                background-color: #444444;
+            }
+            
+            .top-story .section.qlink {
+                color: #FFF;
+                background-color: #444444;
+                padding: 5px;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover,
+            a:focus,
+            a:active {
+                background: #444444;
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover h5 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover h3 {
+                color: #fff;
+            }
+            
+            .stories-cards .stories-list-element.qlink a:hover .byline {
+                color: #fff;
+            }
+            
+            .card-block-qlink .card .story-element-blurb blockquote {
+                border-color: #444444;
+                color: #444444;
+            }

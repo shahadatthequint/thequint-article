@@ -1,0 +1,1 @@
+PARSELY.pInit({"apikey":"thequint.com","settings":{"debug":false,"widget":false,"tracker":true},"customizations":null,"track_ip_addresses":true,"bundle":"/code/ptrack-v0.8.0.js","track_third_party_cookies":true,"uuid":"73236fc2-6550-4083-b4cb-67b56f053379","network_uuid":"b5036b0b-add4-4ffc-a771-0659a8a40ecb","apikey_uuid":"73236fc2-6550-4083-b4cb-67b56f053379"});
